@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 120vh;
+    background: #eee;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    background-color: white;
+    padding: 20px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.navbar-brand span{
+    color: rgb(8, 110, 213);
+}
+.nav_link{
+    color: #a0a0a0;
+    font-size: 17px;
+    margin: 15px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+.nav_link.active{
+    color: #086ed5;
+    border-bottom: #086ed5 2px solid;
+}   
+.nav-underline{
+    font-size: 20px;
+}
+
+
+.Book{
+    text-decoration: none;
+    color: white;
+    background-color: #086ed5;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+.Home-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+}
+.text-home{
+    width: 40%;
+    margin-top: 20px;
+}
+.text-home h1{
+    font-size: 70px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+}
+.text-home p{
+    font-size: 20px;
+}
+.img-home{
+    width: 40%;
+    height: 80vh;
+    margin-top: 20px;
+}
+.btn-1{
+    text-decoration: none;
+    color: white;
+    background-color: #086ed5;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.btn-2{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.ri-movie-line{
+    color: #086ed5;
+}
+
+.about-section{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.title-about{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.learn{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.learn span{
+    font-family: "Amatic SC", sans-serif;
+    color: #086ed5;
+    font-weight: 700;
+}
+.img-text-about{
+    display: flex;
+    gap: 20px;
+}
+.about-img{
+    width: 100%;
+}
+.par-about{
+    width: 30%;
+}
+.par{
+    display: flex;
+    gap: 5px;
+}
+.ri-check-double-line{
+    height: 5vh;
+    color: #086ed5;
+}
+.btn-3{
+    text-decoration: none;
+    color: white;
+    background-color: #086ed5;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.content-section{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    background-color: #f1f1f1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.why-us-section{
+    display: flex;
+    gap: 20px;
+}
+.par-why{
+    width: 30%;
+    background-color: #086ed5;
+    padding: 50px;
+    color: white;
+}
+.btn-4{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(221, 221, 221, 0.604);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+.slides-why{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    gap: 20px;
+    
+    padding: 20px;
+}
+.slide-why{
+    background-color: white;
+    padding: 20px;
+}
+.icon{
+    text-decoration: none;
+    color: #086ed5;
+    width: 40px;
+    font-size: 100px;
+}
+.section-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/about-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.stats-counter{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+}
+.stat-counter{
+    text-align: center;
+}
+.stat-counter h1{
+    color: white;
+    font-weight: 700;
+}
+.stat-counter p{
+    color: rgb(201, 201, 201);
+    font-weight: 600;
+}
+.menu-section{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.title-menu{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.title-menu h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.title-menu h1 span{
+    font-family: "Amatic SC", sans-serif;
+    color: #086ed5;
+    font-weight: 700;
+}
+#pills-tab{
+    justify-content: center;
+}
+.link{
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-bottom: 2px solid #b6b6bf;
+}
+.link.active{
+    color: #086ed5;
+    border-color: #086ed5;
+}
+.tab-pane{
+    text-align: center;
+}
+.title-tab{
+    font-weight: 700;
+    color: #086ed5;
+}
+.slides-menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.slides-menu img{
+    width: 60%;
+    margin-top: 40px;
+}
+.slides-menu h3{
+    margin-top: 10px;
+    color: black;
+}
+.slides-menu h4{
+    color: #086ed5;
+}
+.events-section{
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.title-events{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.title-events h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.title-events span{
+    color: #086ed5;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+}
+.events-slides{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.event-slide{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.event-slide img{
+    width: 100%;
+    height: 100vh;
+}
+.par-event{
+    position: absolute;
+    bottom: 1%;
+    padding-left: 20px;
+    color: white;
+}
+.par-event h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.par-event p{
+    font-weight: 700;
+}
+.d-event{
+    color: #086ed5;
+}
+.Chefs-section{
+    text-align: center;
+    background-color: #eee;
+    padding: 40px;
+}
+.Chefs-section h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.Chefs-section span{
+    font-family: "Amatic SC", sans-serif;
+    color: #086ed5;
+    font-weight: 700;
+}
+.chefs-member{
+    display: flex;
+    gap: 30px;
+    margin-top: 65px;
+}
+.chef-member{
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px rgba(55, 55, 63, 0.15);
+}
+.chef-member:hover{
+    transform: scale(1.08);
+}
+.chef-member img{
+    width: 100%;
+}
+.chef-member h3{
+    margin-top: 20px;
+}
+.chef-member p{
+    padding: 0px 10px;
+}
+.section-3{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    text-align: center;
+}
+.section-3 h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+.section-3 span{
+    color: #086ed5;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+}
+.reservation{
+    display: flex;
+    background-color: #eee;
+    margin: 30px 30px;
+}
+.reservation img{
+    width: 50%;
+    height: 80vh;
+}
+.book-table{
+    margin: 40px;
+    
+}
+.top{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 0%;
+}
+.message{
+    width: 100%;
+    height: 30vh;
+    margin-top: 30px;
+}
+.btn-5{
+    text-decoration: none;
+    color: white;
+    background-color: #086ed5;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+.top-gallery{
+    margin-bottom: 65px;
+    text-align: center;
+}
+.top-gallery h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.top-gallery span{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #086ed5;
+}
+.carousel-item img{
+    width: 50%;
+    height: 80vh;
+}
+.Contact-section{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    text-align: center;
+}
+.top-contact{
+    margin-bottom: 65px;
+}
+.top-contact h1{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.top-contact span{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #086ed5;
+}
+.iframe{
+    width: 100%;
+}
+.Contact-icons{
+    display: flex;
+    flex-wrap: wrap;    
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+.Contact-icon{
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 20px;
+    width: 49.5%;
+}
+.Contact-icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    font-size: 25px;
+    line-height: 0;
+    color: #fff;
+    background: #086ed5;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 12px;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.footer-slide{
+    display: flex;
+}
+.footer-slide i{
+    margin-right: 10px;
+    font-size: 23px;
+}
+.footer-text h6{
+    font-weight: 700;
+    font-size: 17px;
+}
+.designed{
+    text-align: center;
+    margin-top: 40px;
+}
+@media screen and (max-width: 992px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 100%;
+        height: 175vh;
+    }
+    .navbar{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .Book{
+        margin-left: 0;
+        position: relative;
+        bottom: 40px;
+        
+    }
+    .navbar-nav{
+        height: 100vh;
+    }
+    .Home-section{
+        display: block;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+    }
+    .text-home{
+        width: 100%;
+        text-align: center;
+    }
+    .img-home{
+        width: 70vh;
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
+    .img-text-about{
+        display: block;
+    }
+    .par-about{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .why-us-section{
+        display: block;
+    }
+    .par-why{
+        width: 100%;
+    }
+    .slides-why{
+        display: block;
+        width: 100%;
+        gap: 40px;
+    }
+    .slide-why{
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+    }
+    .stats-counter{
+        display: block;
+    }
+    .slides-menu{
+        display: block;
+    }
+    .events-slides{
+        display: block;
+    }
+    .event-slide{
+        margin-top: 10px;
+    }
+    .chefs-member{
+        display: block;
+    }
+    .chef-member{
+        width: 100%;
+    }
+    .reservation{
+        display: block;
+        margin: 0;
+        height: 165vh;
+    }
+    .reservation img{
+        width: 100%;
+    }
+    .book-table{
+        margin: 50px;
+    }
+    .Contact-icon{
+        width: 100%;
+    }
+    .footer-top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
